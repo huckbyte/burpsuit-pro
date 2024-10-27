@@ -25,7 +25,7 @@
                                            
 - ### Auto Install
 
-      curl https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo sh
+      curl https://github.com/huckbyte/burpsuit-pro/blob/main/install.sh | sudo sh
 
 - ### Run
 
@@ -36,11 +36,8 @@
       cd
   <br>
    
-      curl https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/refs/heads/main/update.sh | sudo sh
+      curl https://github.com/huckbyte/burpsuit-pro/blob/main/update.sh | sudo sh
   
-- ### Setup Licenses
-
-https://github.com/xiv3r/Burpsuite-Professional/assets/117867334/c25831a4-68a2-44ee-b6dd-5ff18165f340
 
 Note: Copy the license from loader to the burpsuite > manual activation > copy burpsuite request key to loader request >  copy response key to the burpsuite.
 
@@ -48,7 +45,7 @@ Note: Copy the license from loader to the burpsuite > manual activation > copy b
 
      right click the desktop -> create a launcher name it Burpsuite Professional, add command `burpsuitepro` and select burpsuite community icon.
 
-<img width="500" height="500" src="https://github.com/xiv3r/Burpsuite-Professional/blob/main/Launcher.jpg">
+<img width="500" height="500" src="Launcher.jpg">
         
 # <h1 align="center"> Windows Installation: </h1>
 
@@ -56,7 +53,7 @@ Note: Copy the license from loader to the burpsuite > manual activation > copy b
  
 - Make a `Burp` directory name in `C Drive` for faster access.
 
-- Download [install.ps1](https://codeload.github.com/xiv3r/Burpsuite-Professional/zip/refs/heads/main) and extract move the file inside to `C:\Burp`
+- Download [install.ps1](https://github.com/huckbyte/burpsuit-pro/blob/main/install.ps1) and extract move the file inside to `C:\Burp`
 
 - Open `Powershell` as administrator and execute below command to set Script Execution Policy.
 
@@ -75,7 +72,7 @@ Note: Copy the license from loader to the burpsuite > manual activation > copy b
 
 - Click there and choose the `burp-suite.ico` from `C:\Burp\`
 
-   ![image](https://user-images.githubusercontent.com/29830064/230825172-16c9cfba-4bca-46a4-86df-b352a4330b12.png)
+   ![image](shortcut.png)
 
 - For Start Menu Entry, copy `Burp-Suite-Pro.vbs` file to 
 
@@ -85,8 +82,8 @@ Note: Copy the license from loader to the burpsuite > manual activation > copy b
  
  <details><summary>Credits:</summary>
 
-* Loader.jar 👉 [h3110w0r1d-y](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)
-* Modified 👉 [cyb3rzest](https://github.com/cyb3rzest/Burp-Suite-Pro)
+* Loader.jar 👉 [Original](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)
+* Modified 👉 [Reviced](https://github.com/huckbyte/burpsuit-pro)
 
 </details>
 </h1>
